@@ -1,0 +1,453 @@
+.body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #0d0d2a;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*navigation sector*/
+
+/* Above section*/
+
+.navigation {
+    width: 100%;
+}
+
+.above-navigation {
+    display: inline-block;
+    opacity: normal;
+    height: 80px;
+    background: linear-gradient(to right, #3800AF 0%, #BF7204 97.52%, #C27500 100% );
+    width: 100%;
+
+}
+
+.norestrictions {
+    padding: 7px 400px;
+    height: 80px;
+    display: flex;
+    margin: 15px 0;
+}
+
+.cinema-icon {
+    height: 40px;
+    width: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.norestriction-text {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+    
+}
+
+/* Above section end*/
+
+/* Below section starts */
+
+.main-header {
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #010305;
+    height: 80px;
+}
+
+.main-header__brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cinemas {
+    display: inline-block;
+    color: white;
+    padding: 25px 0 10px 10px;
+}
+
+.main-header__brand img {
+    width: 100px;
+    /*padding-top: 0px;*/
+
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 600px;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 30px 30px 0px 30px;
+}
+
+.main-navigation__item a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.main-navigation__item a:hover {
+    color: #ED8E00;
+}
+
+.main-navigation__item.active a {
+    color: #ED8E00;
+}
+
+/* Below section fineshed */
+
+/* main page section starts */
+
+.main-page {
+    top: 185px;
+    width: 100%;
+    height: 932px;
+    background-image: url("..//images/mainpage.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-page__text {
+    padding: 210px 0 0 0;
+}
+
+.subtitle {
+    position: relative;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: left;
+    color: white;
+    font-weight: 900;
+}
+
+.context {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #C8C8C8;
+    width: 550px;
+}
+
+.buttons {
+    padding: 30px 0 0 0;
+    height: 100px;
+}
+
+.watchnow {
+    margin: 0 100px 0 0;
+    padding: 20px 35px;
+    height: 55px;
+    width: 150px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: justify;
+    background-color: #040D1F;
+    color: white;
+    cursor: pointer;
+}
+
+.download {
+    margin: 0 100px 0 0;
+    padding: 20px 35px;
+    height: 55px;
+    width: 150px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: justify;
+    background-color: #040D1F;
+    color: white;
+    cursor: pointer;
+}
+
+.watchnow:hover {
+    color: white;
+    background-color: #F18128;
+}
+
+.download:hover {
+    color: white;
+    background-color: #F18128;
+}
+
+/* main page section finished */
+
+/* films section starts */
+
+.class {
+    width: 100%;
+    height: 605px;
+}
+
+.films-subtitle {
+    font-family: sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: left;
+    color: #F18128;
+    padding-top: 60px;
+}
+
+.filmscollection {
+    display: flex;
+}
+
+.play {
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTQzNTA5MjUwOF5BMl5BanBnXkFtZTcwMzI4NDI1OA@@._V1_SX255_CR0,0,255,367_AL_.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 400px;
+    margin: 30px 10px 30px 60px;
+    padding: 30px;
+}
+
+.movie-play {
+    width: 40px;
+    height: 45px;
+    background: none;
+    color: white;
+    font-size: 50px;
+    margin: 5px 70px;
+}
+
+.movie-button {
+    width: 100px;
+    height: 25px;
+    border-radius: 9px;
+    border-width: 2px;
+    border-color: white;
+    background: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin: 5px 45px 15px 45px;
+}
+
+.movie-title {
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.movie-description {
+    width: 227px;
+    height: 140px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: white;
+    margin-top: 0px;
+
+}
+
+/* films section fineshed */
+
+/*Coming soon section starts*/
+.coming-soon {
+    height: 400px;
+    background-image: linear-gradient( to right, #FFFFFF 0%, rgba(255, 255, 255, 0.45) 45.42%, #FFFFFF 100%),url('..//images/cea.jpg');
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.coming-soon__box {
+    display: flex;
+}
+
+.coming-soon__ads img {
+    width: 40%;
+    margin: 50px 0 0 0;  
+    display: inline-block;  
+}
+
+.coming-soon__text {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+    width: 550px;
+    height: 120px;
+    margin-top: 25px;
+    
+}
+
+.coming-soon__img {
+    display: inline-block;
+}
+
+.coming-soon__img img {
+    width: 845px;
+    height: 400px;
+    margin-left: 100px;
+}
+/*Coming soon section finished*/
+
+/* Series section starts */
+.series {
+    width: 100%;
+    height: 300px;
+}
+
+.series-line {
+    color: #F18128;
+    padding-top: 30px;
+}
+
+.film__collections {
+    width: 100%;
+    height: 200px;
+    
+}
+
+.film__collection {
+    display: inline-block;
+    width: 350px;
+    height: 190px;
+    background-image: url('..//images/marvel.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.film__collection1 {
+    display: inline-block;
+    width: 350px;
+    height: 190px;
+    background-image: url('..//images/farsaj.jpeg');
+    background-position: center;
+    background-size: cover;
+    margin: 60px 117px;
+}
+
+.film__collection2 {
+    display: inline-block;
+    width: 350px;
+    height: 190px;
+    background-image: url('..//images/starwars.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.film__play {
+    font-size: 50px;
+    color: white;
+    margin: 0 150px;
+}
+
+.collection__names {
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+}
+
+.series-subtitle {
+    position: relative;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: left;
+    color: #F18128;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.game-thrones {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/gameofthrones.jpeg');
+    /*background-image: cover;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.game-thrones__subtitle {
+    position: relative;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 44px;
+    line-height: 78px;
+    text-align: left;
+    color: white;
+    font-weight: 900;
+    padding: 100px 430px 0px;
+}
+
+.game-thrones__text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 1000px;
+    height: 10px;
+    margin: 0 150px;
+    color: white;
+}
+
+.thrones-buuton {
+    margin: 130px 0 0 575px;
+    padding: 20px 35px;
+    height: 55px;
+    width: 150px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: justify;
+    background-color: #040D1F;
+    color: white;
+    cursor: pointer;
+}
+
+.thrones-buuton:hover {
+    color: white;
+    background-color: #F18128;
+}
+
+
+/* Series section fineshed */
