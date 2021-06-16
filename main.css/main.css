@@ -455,8 +455,8 @@
 }
 
 .bigger-img {
-    margin: 50px 0 0 0;
-    height: 450px;
+    margin: 56px 0 0 56px;
+    height: 540px;
     width: 550px;
     background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/wandavisiom.jpg');
     background-image: cover;
@@ -466,7 +466,7 @@
     display: inline-block;
 }
 
-.bigger-img__play1 {
+.bigger-img__play {
     display: inline-block;
     width: 40px;
     height: 45px;
@@ -476,7 +476,7 @@
     margin: 180px 0 0 250px;
 }
 
-.bigger-img__text1 {
+.bigger-img__text {
     position: relative;
     font-family: sans-serif;
     font-style: bold;
@@ -488,51 +488,156 @@
     padding: 20px 0 0 220px;
 }
 
-.smaller-imgs {
-    float: inline-end;
-}
-
-.smaller-img {
-    /*margin: 50px 0 0 0;*/
-    height: 185px;
-    width: 255px;
-    background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/wandavisiom.jpg');
-    background-image: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.smaller-img2 {
-    /*margin: 50px 0 0 0;*/
-    height: 185px;
-    width: 255px;
-    background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/wandavisiom.jpg');
-    background-image: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.smaller-img3 {
+.one-img {
+    margin-top: 50px;
     float: left;
-    /*margin: 50px 0 0 0;*/
-    height: 185px;
-    width: 255px;
-    background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/wandavisiom.jpg');
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 300px 310px;
+}
+
+#one {
+    border-style: solid;
+    box-sizing: border-box;
+    width: 295px;
+    height: 224px;
+    margin: 5px;
+    padding: 5px;
+    background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/flash.jpg');
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+   
+#two  {
+    border-style: solid;
+    box-sizing: border-box;
+    width: 295px;
+    height: 224px;
+    margin: 5px;
+    padding: 5px;
+    background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/great.jpg');
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+   
+#three {
+    border-style: solid;
+    box-sizing: border-box;
+    width: 295px;
+    height: 224px;
+    margin: 5px;
+    padding: 5px;
+    background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/gotham.jpg');
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+   
+#four {
+    border-style: solid;
+    box-sizing: border-box;
+    width: 295px;
+    height: 224px;
+    margin: 5px;
+    padding: 5px;
+    background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/witcher.jpg');
     background-image: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.smaller-img4 {
-    /*margin: 50px 0 0 0;*/
-    height: 185px;
-    width: 255px;
-    background-image: linear-gradient( to right, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%),url('..//images/wandavisiom.jpg');
-    background-image: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.one-img__play {
+    display: inline-block;
+    width: 40px;
+    height: 45px;
+    background: none;
+    color: white;
+    font-size: 50px;
+    margin: 60px 0 0 120px;
 }
+
+.one-img__text {
+    position: relative;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: left;
+    color: white;
+    font-weight: 400;
+    padding: 15px 0 0 90px;
+}
+
+.two-img__play {
+    display: inline-block;
+    width: 40px;
+    height: 45px;
+    background: none;
+    color: white;
+    font-size: 50px;
+    margin: 60px 0 0 120px;
+}
+
+.two-img__text {
+    position: relative;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: left;
+    color: white;
+    font-weight: 400;
+    padding: 15px 0 0 90px;
+}
+
+.three-img__play {
+    display: inline-block;
+    width: 40px;
+    height: 45px;
+    background: none;
+    color: white;
+    font-size: 50px;
+    margin: 60px 0 0 120px;
+}
+
+.three-img__text {
+    position: relative;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: left;
+    color: white;
+    font-weight: 400;
+    padding: 15px 0 0 100px;
+}
+
+.four-img__play {
+    display: inline-block;
+    width: 40px;
+    height: 45px;
+    background: none;
+    color: white;
+    font-size: 50px;
+    margin: 60px 0 0 120px;
+}
+
+.four-img__text {
+    position: relative;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: left;
+    color: white;
+    font-weight: 400;
+    padding: 15px 0 0 105px;
+}
+
+/* Series section fineshed */
